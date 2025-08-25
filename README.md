@@ -13,7 +13,7 @@ Este proyecto implementa una base de datos containerizada utilizando Docker, con
 ## Estructura del Proyecto
 
 ```
-proyecto/
+postgres-docker/
 ├── Dockerfile
 ├── init-scripts/
 │   └── init.sql
@@ -37,6 +37,8 @@ nano dockerfile
 - Definición de variables de entorno
 - Script de inicialización que se ejecuta al levantar el contenedor por primera vez
 - Exposición de puerto definido
+
+![creacion](./images/creacion)
 
 
 ### 2. Script de Inicialización
