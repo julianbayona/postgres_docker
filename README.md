@@ -61,6 +61,8 @@ touch init-postgres.sql
 nano init-postgres.sql
 ```
 
+![scripts](./images/script.png)
+
 ### 3. Construcción de la Imagen
 
 Ejecutar el comando para crear la imagen Docker:
@@ -68,6 +70,7 @@ Ejecutar el comando para crear la imagen Docker:
 ```bash
 docker build -t image-postgres:v1.0 .
 ```
+![construccion](./images/construccion.png)
 
 ### 4. Verificación de la Imagen
 
@@ -77,6 +80,8 @@ Listar las imágenes disponibles para confirmar que se creó correctamente:
 docker images
 ```
 
+![verificacion](./images/verificacion.png)
+
 ### 5. Ejecución del Contenedor
 
 Arrancar el contenedor con la configuración necesaria:
@@ -84,7 +89,7 @@ Arrancar el contenedor con la configuración necesaria:
 ```bash
 docker run -d -p 5432:5432 --name container-postgres  image-postgres:v1.0
 ```
-
+![ejecucion](./images/ejecucion.png)
 ### 6. Verificación del Estado
 
 Comprobar que el contenedor esté ejecutándose correctamente:
@@ -92,6 +97,7 @@ Comprobar que el contenedor esté ejecutándose correctamente:
 ```bash
 docker ps
 ```
+![estado](./images/estado.png)
 
 ### 7. Conexión y Pruebas
 
@@ -102,6 +108,8 @@ Conectarse al contenedor y verificar:
 ```bash
 docker exec -it container-postgres psql -U julian -d mi_db 
 ```
+
+![conexion](./images/conexion.png)
 
 ## Variables de Entorno
 
