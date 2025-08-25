@@ -17,7 +17,7 @@ postgres-docker/
 ├── Dockerfile
 ├── images/
 ├── init-scripts/
-│   └── init.sql
+│   └── init-postgres.sql
 └── README.md
 ```
 
