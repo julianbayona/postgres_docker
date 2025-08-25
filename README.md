@@ -47,7 +47,7 @@ nano dockerfile
 Crear el archivo de inicialización en la carpeta especificada en el Dockerfile que contendrá:
 
 
-  ```bash
+```bash
 mkdir init-scripts
 cd init-scripts/
 touch init-postgres.sql
@@ -56,8 +56,7 @@ touch init-postgres.sql
 - **DDL** (Data Definition Language): Estructura de la base de datos
 - **DML** (Data Manipulation Language): Datos iniciales
 
-- 
-  ```bash
+```bash
 nano init-postgres.sql
 ```
 
