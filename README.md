@@ -15,6 +15,7 @@ Este proyecto implementa una base de datos containerizada utilizando Docker, con
 ```
 postgres-docker/
 ├── Dockerfile
+├── images/
 ├── init-scripts/
 │   └── init.sql
 └── README.md
@@ -38,7 +39,7 @@ nano dockerfile
 - Script de inicialización que se ejecuta al levantar el contenedor por primera vez
 - Exposición de puerto definido
 
-![creacion](./images/creacion)
+![creacion](./images/creacion.png)
 
 
 ### 2. Script de Inicialización
